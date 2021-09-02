@@ -22,6 +22,7 @@ this type of messages :
 <a href="https://ibb.co/6mRL2jJ"><img src="https://i.ibb.co/W6WjQmp/image-20210808225812259.png" alt="image-20210808225812259" border="0"></a>
 
 We implemented all the functions such that they will work on graphs both with cycles and without cycles.
+
 How we did it:
 We created a set if visited nodes which is sent in the Discover message, the set saves all the nodes which we already visited, that's how every node 'knows' to avoid neighbors that were
 already visited.
